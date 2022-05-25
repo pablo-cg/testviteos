@@ -1,0 +1,61 @@
+@import '_normalize';
+@import '_variables';
+
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+html, body {
+  height: 100%;
+}
+
+// btns
+.btn-form {
+  background-color: $bg-btn-form !important;
+  color: $text-btn-form !important;
+  transition: all 0.4s ease;
+  width: auto;
+
+}
+.btn-form:hover {
+  background-color: $bg-btn-form-hover !important;
+  filter: brightness(90%);
+}
+
+// validation components
+.text-error {
+  color: $text-error-color !important;
+  top: 35% !important;
+}
+.p-error-message {
+  margin-top: .25rem;
+}
+.btn-fileupload {
+  background-color: $bg-navbar !important;
+  transition: all 0.4s ease;
+}
+.btn-fileupload:hover {
+  background-color: $btn-fileupload-hover !important;
+}
+.btn-primary {
+  background-color: $primary-color !important;
+  transition: all 0.4s ease;
+}
+.btn-primary:hover {
+  background-color: $primary-color-hover !important;
+}
+.btn-primary-outline {
+  color: $primary-color !important;
+}
+.btn-primary-outline:hover {
+  color: $primary-color-hover !important;
+}
+.btn-search:hover {
+  background-color: $primary-color-hover !important;
+}
+
+.wrapper-routes {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
